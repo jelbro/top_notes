@@ -172,3 +172,15 @@ Alternatively, you can link the JavaScript file in the `<head>` of your HTML doc
   <script src="js-file.js" defer></script>
 </head>
 ```
+
+
+# Events
+- Events are how you manipulate the DOM dynamically or on demand.
+- Events are things that happen on a webpage like mouse-clicks or key presses
+
+Three primary ways to do this:
+- You can specify function attributes directly on your HTML elements.
+- You can set properties in the form of `on<eventType>`, such as `onclick` or `onmousedown`, on the DOM nodes in your JavaScript.
+- You can attach event listeners to the DOM nodes in your JavaScript.
+
+Event listeners are the preferred method.
